@@ -1,0 +1,57 @@
+:root
+{
+  --bg:#2596be;
+}
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  background-color:var(--bg);
+}
+
+
+button
+{
+
+ padding: 10px 20px;
+ border: none;
+ background-color: cadetblue;
+ box-shadow: 2px 2px 3px black;
+ margin: 2px 2px;
+ font-size: 15px;
+ text-align: center;
+ font-weight: bolder;
+ color:rgb(59, 51, 51);
+  
+}
+.box
+{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  border: 2px solid green;
+  margin: 5px 5px ;
+  background-color: aliceblue;
+}
+
+form
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100vw;
+  background-color: cadetblue;
+  flex-direction: column;
+}
+
+
+
